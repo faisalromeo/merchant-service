@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  },
+  "name": "merchant-service",
+  "description": "Mini Project Day 26 - API",
+  "version": "1.0.0",
+  "main": "db_config.js",
+  "scripts": {
+    "start": "nodemon ./handler",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalromeo/merchant-service.git"
+  },
+  "keywords": [
+    "merchant-service",
+    "api"
+  ],
+  "author": "faisal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisalromeo/merchant-service/issues"
+  },
+  "homepage": "https://github.com/faisalromeo/merchant-service#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
